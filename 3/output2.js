@@ -5,7 +5,7 @@ const binaries = input.split('\n');
 function mapFrequencies(strings) {
   const frequencies = {};
 
-  // awww fuck we bout to get into n^2 time!!!
+  // awww damn we bout to get into n^2 time!!!
   // Loop within the length of characters first - this allows us to create objects for each first
   for (let i = 0; i < strings[0].length; i++) {
     // initialize counter for this index of the binaries
