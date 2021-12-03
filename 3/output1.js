@@ -4,7 +4,6 @@ const binaries = input.split('\n');
 
 const frequencies = {};
 
-// awww damn we bout to get into n^2 time!!!
 // Loop within the length of characters first - this allows us to create objects for each first
 for (let i = 0; i < binaries[0].length; i++) {
   // initialize counter for this index of the binaries
